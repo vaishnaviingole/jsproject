@@ -1,0 +1,118 @@
+.container {
+  background-image: linear-gradient(pink, grey);
+
+  border: 1px solid #cccccc;
+
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+
+  border-radius: 20px;
+
+  position: absolute;
+
+  top: 55%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+
+  height: 400px;
+}
+.number {
+  height: 60px;
+
+  padding: 38px;
+
+  background-color: #fff;
+
+  border-radius: 3px;
+
+  border: 2px solid grey;
+
+  background-color: transparent;
+
+  font-size: 2rem;
+
+  color: #333;
+}
+.operator {
+  height: 60px;
+
+  padding: 5px;
+
+  background-color: #fff;
+
+  border-radius: 3px;
+
+  border: 2px solid grey;
+
+  background-color: transparent;
+
+  font-size: 2rem;
+
+  color: #333;
+}
+
+.equal,
+.clear,
+.decimal {
+  height: 60px;
+
+  padding: 5px;
+
+  background-color: #fff;
+
+  border-radius: 3px;
+
+  border: 2px solid grey;
+
+  background-color: transparent;
+
+  font-size: 2rem;
+
+  color: #333;
+}
+.number,
+.operator,
+.clear,
+.equal,
+.decimal:hover {
+  background-color: #e7e7e7;
+}
+h1 {
+  text-align: center;
+  color: grey;
+  margin-top: 50px;
+}
+.screen {
+  background-color: grey;
+  border: solid black 2px;
+  justify-content: left;
+
+  color: black;
+
+  font-size: medium;
+
+  width: 50%;
+
+  height: 30%;
+
+  cursor: default;
+
+  padding: 10px;
+
+  padding-left: 40%;
+
+  margin: auto;
+
+  margin-bottom: 10px;
+}
+.number,
+.clear,
+.screen,
+.operator,
+@media (max-width: 800px) {
+  body {
+  }
+}
