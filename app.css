@@ -87,7 +87,7 @@ h1 {
 }
 .screen {
   background-color: grey;
-  border: solid black 2px;
+  border: solid black 1px;
   justify-content: left;
 
   color: black;
